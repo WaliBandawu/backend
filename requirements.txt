@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+chromadb
+sentence-transformers
+requests
+PyPDF2
+python-multipart
+# Optional dependencies for additional functionality
+pydantic
+# For testing purposes
+pytest
+# For development purposes
+black
