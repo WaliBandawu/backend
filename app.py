@@ -80,9 +80,7 @@ def get_similar_docs(query: str, k: int = 3) -> List[str]:
         logger.debug(traceback.format_exc())
         return []
 
-# ---- LLM Call ----
-RGT_API_URL = "https://rgt-litellm.ddns.net/chat/completions"
-RGT_API_KEY = "sample_key"
+
 
 def call_rgt_llm(prompt: str) -> str:
     payload = {
